@@ -71,8 +71,8 @@ section.module.content {
   background-color: rgba(207, 216, 220, 0.5);
 }
 
-section.module.content:last-child {
-  padding-bottom: 80px;
+section.module.content:last-of-type {
+  padding-bottom: 40px;
 }
 
 section.module.parallax {
@@ -97,7 +97,7 @@ section.module.parallax h1 {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 0 0 10px white;
+  text-shadow: 0 0 10px white;1
   font-family: commanders;
   
 }
@@ -168,6 +168,8 @@ section.module.parallax {
 .footer {
   position: absolute;
   bottom: 0;
+  display: flex;
+  justify-content: space-between;
   width: 100%;
   /* Set the fixed height of the footer here */
   height: auto;
@@ -188,15 +190,10 @@ footer .container-fluid p {
   padding-right: 2em;
 }
 
-@media(max-width: 768px) {
-  .col-md-4 {
-    text-align: center;
-    line-height: 30px;
-  }
-
+@media(max-width: 600px) {
   section.module.parallax-1,
   section.module.parallax-2, section.module.parallax-3 {
-    background-size: contain;
+    background-size: ;
   }
 
 }
