@@ -11,52 +11,60 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     crossorigin="anonymous">
   <link rel="stylesheet" href="/src/styles/main.css">
-
+  <link rel="stylesheet" href="src/styles/main.css
+  ">
 
 </head>
 
-<body class="container-fluid d-flex media">
+<body>
 
   <span class="position-absolute trigger">
     <!-- hidden trigger to apply 'stuck' styles --></span>
-    <nav class="navbar navbar-expand-sm navbar-dark sticky-top ">
-        <a class="navbar-brand" href="https://www.facebook.com/pg/Airshowband/">AIRSHOW</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="media.html">Media</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="photo.html">Gallery</a>
-            </li>
-          </ul>
-          <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:2USLUiPGlv1amJy3gUszGw?si=_g60KQ5ySYaJEn-CSN445Q&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
-          <form class="form-row email">
-            <input id="form_email" type="email" name="email" class="form-control" placeholder="Sign up for our mailing list"
-              required="required" data-error="Valid email is required.">
-            <div class="form-text with-errors"></div>
-            <button class="btn btn-outline-success my-2 my-sm-0 bg-primary" type="submit">Submit</button>
-          </form>
-        </div>
+  <nav class="navbar navbar-expand-sm navbar-dark sticky-top ">
+    <a class="navbar-brand" href="https://www.facebook.com/pg/Airshowband/">AIRSHOW</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="media.html">Media</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="photo.html">Gallery</a>
+        </li>
+      </ul>
+      <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:2USLUiPGlv1amJy3gUszGw?si=_g60KQ5ySYaJEn-CSN445Q&size=detail&theme=light"
+        width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+      <form class="form-row email">
+        <input id="form_email" type="email" name="email" class="form-control" placeholder="Sign up for our mailing list"
+          required="required" data-error="Valid email is required.">
+        <div class="form-text with-errors"></div>
+        <button class="btn btn-outline-success my-2 my-sm-0 bg-primary" type="submit">Submit</button>
+      </form>
+    </div>
+
+  </nav>
+
+  <main class="about container-fluid">
+    <div class="row d-flex justify-content-around">
+      
     
-      </nav>
-
-  <main class="about">
-
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/k35fOD_dmFM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
-  <!-- <div class="cot"> -->
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/abuWQCdxOEk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe src="https://open.spotify.com/embed/artist/2USLUiPGlv1amJy3gUszGw" width="325" height="400" frameborder="0"
-      allowtransparency="true" allow="encrypted-media"></iframe>
-  </div>
+    <div class="col-lg-6"><iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FAirshowband%2Fvideos%2F10157294151059428%2F&show_text=0&width=560"
+      width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"
+      allowFullScreen="true"></iframe></div>
+    <div class="col-lg-6"><iframe width="560" height="315" src="https://www.youtube.com/embed/k35fOD_dmFM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe></div>
+    <div class="col-lg-6"><iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FAirshowband%2Fvideos%2F10155883962664428%2F&show_text=0&width=560"
+      width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"
+      allowFullScreen="true"></iframe></div>
+    <div class="col-lg-6"><iframe width="560" height="315" src="https://www.youtube.com/embed/abuWQCdxOEk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe></div>
+    </div>
   </main>
 
 
