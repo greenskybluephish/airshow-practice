@@ -88,6 +88,7 @@ section.module.parallax-0 {
   background-size: cover;
   background-color: rgba(0, 123, 255, 0.4);
   background-blend-mode: luminosity;
+  font-family: commanders;
 
 }
 section.module.parallax h1 {
@@ -127,7 +128,7 @@ section.module.parallax-2 {
 
 section.module.parallax-3 {
   background-image: url("../../images/cover3.jpg");
-  background-position: 50% 0;
+  background-position: 50% -10%;
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: inherit;
@@ -162,7 +163,7 @@ section.module.parallax-3 {
   height: 100px;
 }
 section.module.parallax {
-  padding: 25% 0 10% 0;
+  padding: 35% 0 20% 0;
 }
 
 .footer {
@@ -191,9 +192,10 @@ footer .container-fluid p {
 }
 
 @media(max-width: 600px) {
-  section.module.parallax-1,
-  section.module.parallax-2, section.module.parallax-3 {
-    background-size: ;
+  
+  section.module.parallax {
+    background-size: contain;
+    
   }
 
 }
@@ -212,22 +214,57 @@ footer .container-fluid p {
   text-align: left;
 }
 
+.navbar {
+  background-color: rgba(76, 76, 185, 0.719)
+!important}
 .sticky-top {
-  transition: all 0.25s ease-in;
+  transition: all 0.1s ease-in;
 }
 
 /* style for when sitcky is applied */
 .stuck .sticky-top {
-  background-color: #222 !important;
-  padding-top: 20px !important;
-  padding-bottom: 3px !important;
-}
+  background-color: transparent !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  font-weight: bold;
 
+}
+.stuck a.nav-link {
+  color: white !important;
+}
+a.nav-link:hover {
+  text-decoration: underline;
+}
 
 img {
-  flex-shrink: 0.7;
+  flex-shrink: 0;
 }
 
-.form-inline {
+.email {
   flex-wrap: nowrap;
+  max-width: 300px;
+  flex-grow: 1;
+}
+
+.form-control {
+  min-width: 180px;
+  margin-right: 5px;
+}
+
+
+
+main.about {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.about iframe {
+  padding: 10px;
+}
+
+body.media {
+  text-align:center; 
+  margin: auto;
 }
